@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN KFC</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/3e553bfb59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="loginPage">
+        <p>Sign In / Sign up</p>
+        <img src="https://login.kfc.co.in/auth/resources/jdsrg/login/kfcIndiaLoginUIDev_2022_08_04/images/KFC_logo.svg" alt="">
+        <h3>LET’S SIGN IN OR CREATE ACCOUNT WITH YOUR PHONE NUMBER!
+        </h3>
+        <input type="text"  id="name" placeholder="Name">
+        <input type="text"  id="username" placeholder="Username"><i class="fas fa-user"></i>
+        <input type="password"  id="password" placeholder="Password"><i class="fas fa-key"></i>
+        <button onclick="show()">Sign IN</button>
+    </div>
+</body>
+</html>
+
+<script>
+    let Name = document.getElementById("name")
+    function show(){
+        alert(`${Name.value} Sign in successfully`)
+
+        window.location.href = "index.html";
+        
+    }
+
+</script>

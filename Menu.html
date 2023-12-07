@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC Menu</title>
+    <link rel="stylesheet" href="menu.css">
+    <script src="https://kit.fontawesome.com/3e553bfb59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="fixed">
+        <div id="location">
+            <img src="https://online.kfc.co.in/static/media/Search_Pin.e88a4d93.svg" alt="">
+            <p>Allow location access for local store menu and promos</p>
+            <button>Set Location</button>
+        </div>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="check-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">
+                <a href="index.html">
+                    <img src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg" alt="">
+                </a>
+            </label>
+            <ul class="left">
+                <li><a class="active" href="Menu.html">Menu</a></li>
+                <li><a href="Deals.html">Deals</a></li>
+                <li><a href="Login.html">
+                    <img src="https://images.ctfassets.net/wtodlh47qxpt/6bJdGLRkksNvWP4LI9ZiFF/cb89d6393492fd093e0f99980abfa39e/Account_Icon.svg" alt="">
+                    Sing In</a></li>
+                <div class="sidepage">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="check-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <b>LET'S GET COOKIN'</b>
+                    <div>
+                        <a href="Login.html">
+                            <img src="https://images.ctfassets.net/wtodlh47qxpt/6bJdGLRkksNvWP4LI9ZiFF/cb89d6393492fd093e0f99980abfa39e/Account_Icon.svg" alt="">
+                        </a>
+                        <a href="Login.html">
+                            <p>Sign in / Sign up ---></p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="Menu.html">
+                            <b>MENU</b>
+                        </a>
+                        <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT86.jpg?ver=36.14" alt="">
+                    </div>
+                    <div>
+                        <a href="Deals.html">
+                            <b>DEALS</b>
+                        </a>
+                        <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT158.jpg?ver=36.14" alt="">
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <div id="startorder">
+        <b>LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</b>
+        <button onclick="show()">Start Order</button>
+    </div>
+    <div id="cont">
+        <div class="text">
+            <h1>KFC MENU</h1>
+            <h3>PERI PERI CHICKEN</h3>
+            <h3>VALUE SNACKERS</h3>
+            <h3>CHICKEN ROLLS</h3>
+            <h3>CHICKEN BUCKETS</h3>
+            <h3>BIRYANI BUCKETS</h3>
+            <h3>BOX MEALS</h3>
+            <h3>BURGERS</h3>
+            <h3>SNACKS</h3>
+            <h3>BEVERAGES</h3>
+        </div>
+        <div class="picture">
+            <h1 class="head">PERI PERI CHICKEN</h1>
+            <div class="peri-peri-chicken">
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002144.jpg?ver=36.2" alt="">
+                    <h4>5 Leg Pc & 2 Dips Bucket</h4>
+                    <h4> Non veg Serves 2</h4>
+                    <h4>₹519.05</h4>
+                    <h5>Save Rs. 120 on 5 Peri Peri Leg Pieces, paired with 2 delicious dips (20gm each)</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002319.jpg?ver=36.2" alt="">
+                    <h4>Peri Peri 10 Pc Chicken Strips & 2 Dips</h4>
+                    <h4> Non veg Serves 2</h4>
+                    <h4>₹499.05</h4>
+                    <h5>Save 24% on 10 Spicy Peri Peri chicken boneless strips with 2 Dips</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002141.jpg?ver=36.2" alt="">
+                    <h4>Peri Peri 10 Leg Pc & 4 Dips</h4>
+                    <h4>Non veg Serves 3-4</h4>
+                    <h4>₹948.57</h4>
+                    <h5>Save Rs. 334 on 10 Peri Peri Leg Pieces & 4 Dips (20 gm each)</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002158.jpg?ver=36.2" alt="">
+                    <h4>Peri Peri 6pc Chicken Strips</h4>
+                    <h4> Non veg Serves 2</h4>
+                    <h4>₹299.05</h4>
+                    <h5>Save 16% on 6 Spicy Peri Peri chicken boneless strips</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+            </div>
+            <h1 class="heading">VALUE SNACKERS</h1>
+            <div class="valueSnacker">
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K617.jpg?ver=36.21" alt="">
+                    <h4>Single Chicken Roll</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹119.05</h4>
+                    <h5>Street style roll with single chicken strip, onions and two spicy sauce</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002348.jpg?ver=36.21" alt="">
+                    <h4>Chicken Longer Burger & 2 Strips Combo</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹219.05</h4>
+                    <h5>Longgg burger with crunchy chicken, onions & a punchy sauce , served with 2 peri peri chicken strips</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K136.jpg?ver=36.21" alt="">
+                    <h4>Regular Popcorn</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹115.24</h4>
+                    <h5>Signature bite-sized boneless chicken, with special spices</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002301.jpg?ver=36.21" alt="">
+                    <h4>2 Veg Longer Burger</h4>
+                    <h4>Veg</h4>
+                    <h4>₹198.10</h4>
+                    <h5>The really long burger with Veg Patty, Onion, Lettuce and two sauces</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K701.jpg?ver=36.21" alt="">
+                    <h4>Chocolate Lava Cake</h4>
+                    <h4>Veg</h4>
+                    <h4>₹108.57</h4>
+                    <h5>Soft Chocolate cake with a gooey center- perfect chocolaty end to every meal</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+            </div>
+            <h1 class="heading">CHICKEN ROLLS</h1>
+            <div class="chickenRoll">
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002324.jpg?ver=36.21" alt="">
+                    <h4>Classic Chicken Roll & Pepsi Combo</h4>
+                    <h4>Non veg Serves 1</h4>
+                    <h4>₹176.19</h4>
+                    <h5>Our new Classic Chicken Roll served with Pepsi 475ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002325.jpg?ver=36.21" alt="">
+                    <h4>Double Chicken Roll & Pepsi Combo</h4>
+                    <h4>Non veg Serves 1</h4>
+                    <h4>₹225.71</h4>
+                    <h5>Our new Double Chicken Roll served with Pepsi 475ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002070.jpg?ver=36.21" alt="">
+                    <h4>Classic Chicken Roll Meal for 1</h4>
+                    <h4>Non veg Serves 1</h4>
+                    <h4>₹339.05</h4>
+                    <h5>Deal combo of 1 Classic Chicken Roll, Large Fries, 2 Dips & Pepsi 475ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002069.jpg?ver=36.21" alt="">
+                    <h4>Double Chicken Roll Meal for 1</h4>
+                    <h4>Non veg Serves 1</h4>
+                    <h4>₹379.05</h4>
+                    <h5>Deal combo of 1 Double Chicken Roll, Large Fries, 2 Dips & Pepsi 475ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K617.jpg?ver=36.21" alt="">
+                    <h4>Classic Chicken Roll</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹119.05</h4>
+                    <h5>KFC's take on the street style roll with single chicken strip, onions & spicy sauces</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K657.jpg?ver=36.21" alt="">
+                    <h4>Double Chicken Roll</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹168.57</h4>
+                    <h5>KFC's take on the street style roll with double chicken strips, onions & spicy sauces</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002068.jpg?ver=36.21" alt="">
+                    <h4>Classic Chicken Roll Meal for 2</h4>
+                    <h4>Non veg Serves 2</h4>
+                    <h4>₹479.05</h4>
+                    <h5>Deal combo of 2 Classic Chicken Rolls, Large Fries, 2 Dips & Pepsi 475ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002067.jpg?ver=36.21" alt="">
+                    <h4>Double Chicken Roll Meal for 2</h4>
+                    <h4>Non veg Serves 2</h4>
+                    <h4>₹548.57</h4>
+                    <h5>Deal combo of 2 Double Chicken Rolls, Large Fries, 2 Dips & Pepsi 475ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002315.jpg?ver=36.21" alt="">
+                    <h4>2 Classic Chicken Roll</h4>
+                    <h4>Non veg Serves 2</h4>
+                    <h4>₹228.57</h4>
+                    <h5>Double the fun with 2 Classic Chicken Rolls</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002316.jpg?ver=36.21" alt="">
+                    <h4>2 Double Chicken Roll</h4>
+                    <h4>Non veg Serves 2</h4>
+                    <h4>₹328.57</h4>
+                    <h5>Double the fun with 2 Double Chicken Rolls</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+            </div>
+            <h1 class="heading">CHICKEN BUCKETS</h1>
+            <div class="chickenBucket">
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002228.jpg?ver=36.21" alt="">
+                    <h4>The Allu Arjun Combo</h4>
+                    <h4>Non veg Serves 2</h4>
+                    <h4>₹448.57</h4>
+                    <h5>Try Allus fav-1 Hot & Crispy Chicken,1 Smoky Red, Reg Popcorn, Spicy Fries & 1 Dip 20gm</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002340.jpg?ver=36.21" alt="">
+                    <h4>All in One Bucket</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹548.57</h4>
+                    <h5>1 Leg, 1 Hot & Crispy, 2 Wings, 2 Strips, 1 Zinger Fillet, 3 Dips [20gm each] & 1 Pepsi 475 ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000892.jpg?ver=36.21" alt="">
+                    <h4>Bucket for Two</h4>
+                    <h4>Non veg Serves 2-3</h4>
+                    <h4>₹599.05</h4>
+                    <h5>Flat Rs. 115 off on combo of 2pc Hot & Crispy, 2 pc Smoky Red Chicken & Large Popcorn</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002169.jpg?ver=36.21" alt="">
+                    <h4>Stay Home Bucket</h4>
+                    <h4>Non veg Serves 3</h4>
+                    <h4>₹788.57</h4>
+                    <h5>Save 21% on 4 Hot & Crispy, 4 Wings, 6 Peri Strips & 2 dips (20gm each)</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002155.jpg?ver=36.21" alt="">
+                    <h4>Peri Peri 10 Leg pc & 4 Dips</h4>
+                    <h4>Non veg Serves 3-4</h4>
+                    <h4>₹924.76</h4>
+                    <h5>Leg before any wicket! Save 27% on 10 Peri Peri Leg Pieces & 4 Dips (20 gm each)</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002157.jpg?ver=36.21" alt="">
+                    <h4>Peri Peri 5 Leg Pc & 2 Dips</h4>
+                    <h4>Non veg Serves 2</h4>
+                    <h4>₹515.24</h4>
+                    <h5>5 Spicy Peri Peri Leg Pieces, paired with 2 delicious dips (20gm each)</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002156.jpg?ver=36.21" alt="">
+                    <h4>Peri Peri 5 Leg Pc Meal</h4>
+                    <h4>Non veg Serves 2</h4>
+                    <h4>₹628.57</h4>
+                    <h5>5 Spicy Peri Peri Leg Pieces, 2 Dips (20gm each), 1 Med Fries & 1 Pepsi 475ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000854.jpg?ver=36.21" alt="">
+                    <h4>Big 12</h4>
+                    <h4>Non veg Serves 2- 3</h4>
+                    <h4>₹748.57</h4>
+                    <h5>Save 28% on 6pc Hot & Crispy Chicken, 6 Hot Wings & 2 dips (20gm each)</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000638.jpg?ver=36.21" alt="">
+                    <h4>Ultimate Savings Bucket</h4>
+                    <h4>Non veg Serves 2-3</h4>
+                    <h4>₹699.05</h4>
+                    <h5>Save 35% on 4pc Hot & Crispy, 6 Wings, 4 Strips, 2 Dips (20gm each) & 1 Pepsi 475ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000891.jpg?ver=36.21" alt="">
+                    <h4>Big 8</h4>
+                    <h4>Non veg Serves 2- 3</h4>
+                    <h4>₹684.76</h4>
+                    <h5>Save 29% on this variety bucket of 4pc Hot & Crispy chicken & 4pc Smoky Red chicken</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K445.jpg?ver=36.21" alt="">
+                    <h4>5pc Smoky Red Chicken</h4>
+                    <h4>Non veg Serves 2</h4>
+                    <h4>₹528.57</h4>
+                    <h5>Flat 20% off on 5pc Smoky red grilled chicken
+                    </h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002162.jpg?ver=36.21" alt="">
+                    <h4>Mingles Bucket Meal</h4>
+                    <h4>Non veg Serves 2</h4>
+                    <h4>₹499.05</h4>
+                    <h5>Save Rs. 71 on 4 Wings,2 Peri Strips, Reg Popcorn, Med Fries & 1 Pepsi 475ml
+                    </h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K009.jpg?ver=36.21" alt="">
+                    <h4>8 pc Hot & Crispy Chicken</h4>
+                    <h4>Non veg Serves 3-4</h4>
+                    <h4>₹768.57</h4>
+                    <h5>Save Rs. 182 & get 8pc signature Hot & crispy chicken</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K012.jpg?ver=36.21" alt="">
+                    <h4>6 pc Hot & Crispy Chicken</h4>
+                    <h4>Non veg Serves 2-3</h4>
+                    <h4>₹628.57</h4>
+                    <h5>Flat 10% off on 6pc signature Hot & crispy chicken</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+            </div>
+            <h1 class="heading">BIRYANI BUCKETS</h1>
+            <div class="biryaniBucket">
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002166.jpg?ver=36.21" alt="">
+                    <h4>Classic Biryani Combo</h4>
+                    <h4>Non veg Serves 2-3</h4>
+                    <h4>₹740.00</h4>
+                    <h5>Large Biryani rice with 2 Hot & Crispy, 2 Gravies, 4 Strips & 1 Pepsi 475ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002017.jpg?ver=36.21" alt="">
+                    <h4>Smoky Grilled Biryani Combo</h4>
+                    <h4>Non veg Serves 2-3</h4>
+                    <h4>₹740.00</h4>
+                    <h5>Large Biryani rice with 2 Smoky Red, 2 Gravies, Med Popcorn & 1 Pepsi 475ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002052.jpg?ver=36.21" alt="">
+                    <h4>Popcorn Biryani Combo</h4>
+                    <h4>Non veg Serves 2-3</h4>
+                    <h4>₹690.48</h4>
+                    <h5>Large Biryani & Chicken Popcorn, 2 Spicy Gravies, 4 Wings & 1 Pepsi 475ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K626.jpg?ver=36.21" alt="">
+                    <h4>Classic Chicken Biryani Bucket (Large</h4>
+                    <h4>Non veg Serves 2</h4>
+                    <h4>₹475.24</h4>
+                    <h5>Large portions of Biryani rice served with 2 pc Hot & Crispy Chicken & 2 Gravies</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K627.jpg?ver=36.21" alt="">
+                    <h4>Popcorn Chicken Biryani Bucket (Large</h4>
+                    <h4>Non veg Serves 2</h4>
+                    <h4>₹475.24</h4>
+                    <h5>Large portions of Biryani rice served with Chicken Popcorn & 2 Gravies</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K628.jpg?ver=36.21" alt="">
+                    <h4>Smoky Grilled Biryani Bucket (Large</h4>
+                    <h4>Non veg Serves 2</h4>
+                    <h4>₹475.24</h4>
+                    <h5>Large portions of Biryani rice served with 2 pc Smoky Red Chicken & 2 Gravies</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K623.jpg?ver=36.21" alt="">
+                    <h4>Classic Chicken Biryani Bucket</h4>
+                    <h4>Non veg Serves 1</h4>
+                    <h4>₹229.52</h4>
+                    <h5>Hyderabadi style Biryani rice served with 1 pc Hot & Crispy & Spicy Gravy</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K624.jpg?ver=36.21" alt="">
+                    <h4>Popcorn Chicken Biryani Bucket</h4>
+                    <h4>Non veg Serves 1</h4>
+                    <h4>₹229.52</h4>
+                    <h5>Hyderabadi style Biryani rice served with Popcorn & Spicy Gravy</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K625.jpg?ver=36.21" alt="">
+                    <h4>Smoky Grilled Biryani Bucket</h4>
+                    <h4>Non veg Serves 1</h4>
+                    <h4>₹229.52</h4>
+                    <h5>Hyderabadi style Biryani rice served with 1 pc Smoky Red & Spicy Gravy</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K622.jpg?ver=36.21" alt="">
+                    <h4>Veg Biryani Bucket</h4>
+                    <h4>Veg Serves 1</h4>
+                    <h4>₹199.05</h4>
+                    <h5>Hyderabadi style Biryani rice served with Veg Patty & Spicy Gravy</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+            </div>
+            <h1 class="heading">BOX MEALS</h1>
+            <div class="boxMeal">
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002167.jpg?ver=36.21" alt="">
+                    <h4>All Chicken Box</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹189.52</h4>
+                    <h5>A Box with your favorites! Get 1 pc Hot & Crispy, 2 Hot Wings & 1 Chicken Strip at a deal price</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001003.jpg?ver=36.21" alt="">
+                    <h4>Zinger Tandoori Box</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹313.33</h4>
+                    <h5>A deal for Tandoori lovers : Get 1 Tandoori Zinger, 2 Hot Wings, 1 Veg Patty & 1 Pepsi 475ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001039.jpg?ver=36.21" alt="">
+                    <h4>Popcorn Biryani Box</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹328.57</h4>
+                    <h5>Biryani lovers unite : Get 1 Popcorn Biryani Bucket with gravy, 2 Hot Wings & 1 Pepsi 475ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001004.jpg?ver=36.21" alt="">
+                    <h4>Veg Zinger Box</h4>
+                    <h4>Veg</h4>
+                    <h4>₹313.33</h4>
+                    <h5>A deal for the Veg Zinger lovers : Get 1 Veg Zinger, 2 Veg Patties & 1 Pepsi 475ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001038.jpg?ver=36.21" alt="">
+                    <h4>Veg Biryani Box</h4>
+                    <h4>Veg</h4>
+                    <h4>₹279.05</h4>
+                    <h5>Biryani lovers unite : Get 1 Veg Biryani Bucket with gravy, 1 Veg Patty & 1 Pepsi 475ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+            </div>
+            <h1 class="heading">BURGERS</h1>
+            <div class="burger">
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000974.jpg?ver=36.21" alt="">
+                    <h4>Family Feast</h4>
+                    <h4>Non veg Serves 3</h4>
+                    <h4>₹859.05</h4>
+                    <h5>Family Deal of 3 chicken zingers, med popcorn, med fries & 1 Pepsi 475ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001025.jpg?ver=36.21" alt="">
+                    <h4>2 Chicken Krisper Burgers</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹248.57</h4>
+                    <h5>2 delicious chicken value burgers - at a deal price</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001022.jpg?ver=36.21" alt="">
+                    <h4>2 Veg Krisper Burgers</h4>
+                    <h4>Veg</h4>
+                    <h4>₹179.05</h4>
+                    <h5>2 delicious veg value burgers - at a deal price</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001027.jpg?ver=36.21" alt="">
+                    <h4>Chicken & Krispers Combo</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹539.05</h4>
+                    <h5>Deal of 2 chicken value burgers, 2 Hot & Crispy, 2 dips (20gm each) & 1 Pepsi 475ml
+                    </h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K540.jpg?ver=36.21" alt="">
+                    <h4>Tandoori Zinger Burger</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹208.57</h4>
+                    <h5>Chicken zinger with a delicious tandoori sauce</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000956.jpg?ver=36.21" alt="">
+                    <h4>Mixed Zinger Doubles</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹368.57</h4>
+                    <h5>Best-seller combo of classic chicken zinger & tandoori zinger</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K439.jpg?ver=36.21" alt="">
+                    <h4>Classic Zinger Burger</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹199.05</h4>
+                    <h5>Signature burger made with a crunchy chicken fillet, veggies & a delicious mayo sauce</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000730.jpg?ver=36.21" alt="">
+                    <h4>Buddy Meal</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹528.57</h4>
+                    <h5>Share 2 Classic Chicken Zingers & a Medium Popcorn in this delightful combo for 2</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K146.jpg?ver=36.21" alt="">
+                    <h4>Veg Zinger Burger</h4>
+                    <h4>Veg</h4>
+                    <h4>₹188.57</h4>
+                    <h5>Signature veg burger with crispy patties, veggies & a tangy sauce
+                    </h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001023.jpg?ver=36.21" alt="">
+                    <h4>2 Veg Krispers Meal</h4>
+                    <h4>Veg</h4>
+                    <h4>₹288.57</h4>
+                    <h5>2 veg value burgers, crispy medium fries & 2 delicious dips (20 gm each) at a deal price
+                    </h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+            </div>
+            <h1 class="heading">SNACKS</h1>
+            <div class="snack">
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-160065.jpg?ver=36.27" alt="">
+                    <h4>Chocolate Mud Pie</h4>
+                    <h4>Veg</h4>
+                    <h4>₹128.57</h4>
+                    <h5>Chocolate lovers unite! Say hello to our creamy chocolate & cake dessert- a must try!</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-160067.jpg?ver=36.27" alt="">
+                    <h4>Coffee Mousse Cake</h4>
+                    <h4> Veg</h4>
+                    <h4>₹128.57</h4>
+                    <h5>Coffee, chocolate, cake, what's not to love? Enjoy this for coffee-licious temptations!</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-402909.jpg?ver=36.27" alt="">
+                    <h4>Chicken & French Fries Bucket</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹299.05</h4>
+                    <h5>Crowd-favorite combo of 2pc Hot & Crispy chicken with Medium Fries
+                    </h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-402912.jpg?ver=36.27" alt="">
+                    <h4>Chicken Popcorn & French Fries Bucket</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹284.76</h4>
+                    <h5>Large Chicken Popcorn with Med Fries - at a deal price
+                    </h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000210.jpg?ver=36.27" alt="">
+                    <h4>Mingles Bucket</h4>
+                    <h4>Non veg Serves 1-2</h4>
+                    <h4>₹379.05</h4>
+                    <h5>Save on this mingle of 4 Wings, 2 Strips & a Reg Popcorn</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-100010.jpg?ver=36.27" alt="">
+                    <h4>Hot & Crispy Chicken-4pc</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹428.57</h4>
+                    <h5>4 pcs of signature Hot & crispy chicken at a deal price</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-120089.jpg?ver=36.27" alt="">
+                    <h4>Chicken Popcorn - Large</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹248.57</h4>
+                    <h5>Signature bite-sized boneless chicken, with special spices</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-120002.jpg?ver=36.27" alt="">
+                    <h4>Chicken Popcorn - Medium</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹168.57</h4>
+                    <h5>Signature bite-sized boneless chicken, with special spices</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-120001.jpg?ver=36.27" alt="">
+                    <h4>Chicken Popcorn - Regular</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹115.24</h4>
+                    <h5>Signature bite-sized boneless chicken, with special spices</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000144.jpg?ver=36.27" alt="">
+                    <h4>Spicy Mix French Fries - Large</h4>
+                    <h4>Veg</h4>
+                    <h4>₹139.05</h4>
+                    <h5>Crispy fries with a spicy chilli lime sprinkle</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000145.jpg?ver=36.27" alt="">
+                    <h4>Spicy Mix French Fries - Medium</h4>
+                    <h4>Veg</h4>
+                    <h4>₹114.29</h4>
+                    <h5>Crispy fries with a spicy chilli lime sprinkle</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-150003.jpg?ver=36.27" alt="">
+                    <h4>French Fries - Large</h4>
+                    <h4>Veg</h4>
+                    <h4>₹119.05</h4>
+                    <h5>Jazz up your meal with crispy fries</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000129.jpg?ver=36.27" alt="">
+                    <h4>Pack of 4 Dips -20gm each</h4>
+                    <h4>Veg</h4>
+                    <h4>₹109.52</h4>
+                    <h5>Adding dips is always a good idea</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-150002.jpg?ver=36.27" alt="">
+                    <h4>French Fries - Medium</h4>
+                    <h4>Veg</h4>
+                    <h4>₹99.05</h4>
+                    <h5>Jazz up your meal with crispy fries</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-100008.jpg?ver=36.27" alt="">
+                    <h4>Hot & Crispy Chicken -2pc</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹229.52</h4>
+                    <h5>Signature Hot & crispy chicken</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-120165.jpg?ver=36.27" alt="">
+                    <h4>Smoky Red Grilled Chicken - 2 pc</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹248.57</h4>
+                    <h5>Spicy, red, grilled chicken</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-120155.jpg?ver=36.27" alt="">
+                    <h4>Hot Chicken Wings - 4pc</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹179.05</h4>
+                    <h5>Seasoned, signature KFC chicken wings</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-100007.jpg?ver=36.27" alt="">
+                    <h4>Hot & Crispy Chicken-1pc</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹115.24</h4>
+                    <h5>Signature Hot & crispy chicken</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-120164.jpg?ver=36.27" alt="">
+                    <h4>Smoky Red Grilled Chicken - 1 pc</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹124.76</h4>
+                    <h5>Spicy, red, grilled chicken</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000196.jpg?ver=36.27" alt="">
+                    <h4>Peri Peri chicken strips - 3 pc</h4>
+                    <h4>Non veg</h4>
+                    <h4>₹179.05</h4>
+                    <h5>3 Spicy Peri Peri chicken strips</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-120146.jpg?ver=36.27" alt="">
+                    <h4>2 pc Veg Patty</h4>
+                    <h4>Veg</h4>
+                    <h4>₹155.24</h4>
+                    <h5>Delicious, crispy, veg add-on</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000147.jpg?ver=36.27" alt="">
+                    <h4>Buttered Bun</h4>
+                    <h4>Veg</h4>
+                    <h4>₹35.24</h4>
+                    <h5>Buttered, soft bun - pairs well with all things KFC</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000148.jpg?ver=36.27" alt="">
+                    <h4>Biryani Rice</h4>
+                    <h4>Veg</h4>
+                    <h4>₹139.05</h4>
+                    <h5>Flavorful aromatic rice to pair with your KFC favorites</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-404037.jpg?ver=36.27" alt="">
+                    <h4>Tandoori Masala Dip -20gm</h4>
+                    <h4>Veg</h4>
+                    <h4>₹28.57</h4>
+                    <h5>Special tandoori flavor dip to add a twist to your meal</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000115.jpg?ver=36.27" alt="">
+                    <h4>Nashville Hot Pepper Dip-20gm</h4>
+                    <h4>Veg</h4>
+                    <h4>₹28.57</h4>
+                    <h5>Hot, peppery goodness of Nashville - our new signature dip</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000116.jpg?ver=36.27" alt="">
+                    <h4>Dynamite Spicy Mayo Dip-20gm</h4>
+                    <h4>Veg</h4>
+                    <h4>₹28.57</h4>
+                    <h5>Spicy, punchy mayo -our new signature dip
+                    </h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+            </div>
+            <h1 class="heading">BEVERAGES</h1>
+            <div class="beverage">
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K350.jpg?ver=36.21" alt="">
+                    <h4>Pepsi 475ml PET</h4>
+                    <h4>Veg</h4>
+                    <h4>₹57.14</h4>
+                    <h5>Pepsi 475ml PET</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K485.jpg?ver=36.21" alt="">
+                    <h4>Pepsi Can 300 ml</h4>
+                    <h4>Veg</h4>
+                    <h4>₹57.14</h4>
+                    <h5>Pepsi Can 300 ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K487.jpg?ver=36.21" alt="">
+                    <h4>7UP Can 300 ml</h4>
+                    <h4>Veg</h4>
+                    <h4>₹57.14</h4>
+                    <h5>7UP Can 300 ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K486.jpg?ver=36.21" alt="">
+                    <h4>Pepsi Black Can 300 ml</h4>
+                    <h4>Veg</h4>
+                    <h4>₹57.14</h4>
+                    <h5>Pepsi Black Can 300 ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+                <div>
+                    <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K488.jpg?ver=36.21" alt="">
+                    <h4>Mirinda Can 300 ml</h4>
+                    <h4>Veg</h4>
+                    <h4>₹57.14</h4>
+                    <h5>Mirinda Can 300 ml</h5>
+                    <button>Add to Cart <img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="index.html"><img src="https://images.ctfassets.net/wtodlh47qxpt/25FSYFuEtGct8NSrtpKe6d/b602f6fe0bf294e6a6dff5d7648bf594/KFC_Logo.svg" alt=""></a>
+        <nav class="footbar">
+            <ul>
+                <li class="a">Legal
+                    <input type="checkbox" id="Check1">
+                    <label for="Check1" class="Checkbtn1">
+                        <p class="plus">+</p>
+                    </label>
+                    <ul class="dropdown">
+                        <li><a href="">Terms and Conditions</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Disclaimer</a></li>
+                        <li><a href="">Caution Notice</a></li>
+                    </ul>
+                </li>
+                <li class="b">KFC India
+                    <input type="checkbox" id="Check2">
+                    <label for="Check2" class="Checkbtn2">
+                        <p>+</p>
+                    </label>
+                    <ul class="dropdown">
+                        <li><a href="About.html">About KFC</a></li>
+                        <li><a href="">KFC Care</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Our Golden Past</a></li>
+                    </ul>
+                </li>
+                <li class="c">KFC Food
+                    <input type="checkbox" id="Check3">
+                    <label for="Check3" class="Checkbtn3">
+                        <p>+</p>
+                    </label>
+                    <ul class="dropdown">
+                        <li><a href="Menu.html">Menu</a></li>
+                        <li><a href="">Order Lookup</a></li>
+                        <li><a href="">Gift Card</a></li>
+                        <li><a href="">Nutrition & Allergen</a></li>
+                    </ul>
+                </li>
+                <li class="d">Support
+                    <input type="checkbox" id="Check4">
+                    <label for="Check4" class="Checkbtn4">
+                        <p>+</p>
+                    </label>
+                    <ul class="dropdown">
+                        <li><a href="">Get Help</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">KFC Feedback</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <a class="find" href="">
+            <img src="https://images.ctfassets.net/wtodlh47qxpt/6qgKpWUOIsrIiazhk3cdmF/d60b4c20be69bab1f939bf33348b67e9/Find_KFC.svg" alt="">
+                    <p>Find KFC</p>
+        </a>
+        <ul class="download">
+            <li>
+                <a href="https://play.google.com/store/apps/details?id=com.yum.kfc" target="_blank">
+                    <img src="https://images.ctfassets.net/wtodlh47qxpt/6BdZsyjLn64c06uCIE73d1/fb530f5d5231533b049463f6c7e8a2b1/google_play.svg" alt="">
+                </a>
+                <a href="https://apps.apple.com/in/app/kfc-india-online-ordering-app/id915824379" target="_blank">
+                    <img src="https://images.ctfassets.net/wtodlh47qxpt/em3mcMuAdXWlgucSJiTbS/d3ae7e51ed101d829e459355e255c47f/apple.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/kfcindia_official/" target="_blank">
+                    <img src="https://images.ctfassets.net/wtodlh47qxpt/4ZHyPA2EeaoP3aqtNDriBA/463462a9c27b0aa585e12b21ce3766e0/Social_Insta_White.svg" alt="">
+                </a>
+                <a href="https://www.facebook.com/KFCIndia" target="_blank">
+                    <img src="https://images.ctfassets.net/wtodlh47qxpt/dKiu2meLcfz2DNwsg7nZw/7194830b1ba6f25b158a23d6b2c4752c/Social_Facebook_White.svg" alt="">
+                </a>
+                <a href="https://twitter.com/KFC_India" target="_blank">
+                    <img src="https://images.ctfassets.net/wtodlh47qxpt/78z9x0WwdkdXwGVK726EKX/6599ca34ec88e2a6f46d7d94ed85a8ad/Social_Twitter_White.svg" alt="">
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
+
+
+<script>
+    let enter = document.querySelectorAll(".picture >div>div>button")
+
+    // console.log(enter)
+    for(let i = 0; i < enter.length;i++){
+        enter[i].addEventListener("click",function()
+        {
+            enter[i].innerText = "Added Successfully"
+            enter[i].style.background = "green"
+        })
+    }
+
+    function show(){
+        window.location.href = "Menu.html";
+    }
+</script>
